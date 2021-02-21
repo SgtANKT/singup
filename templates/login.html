@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <h1>LogIn</h1>
+    <form action="", method="POST">
+        <div class="from-group">
+            <input type="text", name="username", class="from-control", placeholder="Username", required>
+        </div>
+        <div class="from-group">
+            <input type="password", name="password", class="from-control", placeholder="Password", required>
+        </div>
+        <button class="btn btn-primary", type="submit">Login</button>
+    </form>
+</div>
+
+
+{% endblock %}
